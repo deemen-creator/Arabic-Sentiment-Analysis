@@ -1,0 +1,11 @@
+# Ignore Python cache and checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Ignore local large datasets and binary weights
+*.csv
+*.xlsx
+*.zip
+arabic_deep_model.keras
